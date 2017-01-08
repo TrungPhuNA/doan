@@ -1,0 +1,133 @@
+.show-hl{
+	margin:25px 0;
+}
+.show-top{
+	padding: 0px;
+	margin-bottom: 20px;
+}
+.show-ht-title{
+	background: #f5f5f5;
+	margin: 10px 10px 10px 0;
+	padding: 10px 10px 10px 0;
+	position: relative;
+}
+.show-ht-title .hl-title{
+	float: left;
+	background: #f94e3f;
+	position: absolute;
+    padding: 17px;
+    top: -10px;
+    margin-left: -1px;
+    display: block;
+}
+.muiten{
+    width: 0px;
+    height: 0px;
+    border-bottom: 31px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 36px solid #f94e3f;
+    margin-left: 264px;
+    /* width: 100%; */
+    top: -11px;
+    position: absolute;
+}
+.show-ht-title .hl-title a i{
+	padding-right:20px;
+	font-size: 20px;
+}
+.show-ht-title .hl-title a{
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+
+}
+.show-ht-title .hl-title a:hover{
+	text-decoration:none;
+}
+.show-ht-title .nav-hl{
+	float: right;
+	width: 50%;
+
+	margin-right: 0px;
+}
+.show-ht-title .nav-hl ul{
+	list-style: none;
+}
+.show-ht-title .nav-hl ul li a{
+	float: left;
+	padding: 0 17px;
+	color: #333;
+	display: block;
+}
+
+.show-ht-title .nav-hl ul li a:hover{
+	text-decoration: none;
+	color:#f94e3f;
+}
+
+/*item-product*/
+.item-product .item1{
+	position: relative;
+	cursor: pointer;
+}
+.new-pro{
+	padding: 15px;
+	color: #f94e3f;
+	position:absolute;
+	right: 10px;
+}
+
+.item-product .item1 img{
+	text-align: center;
+	margin-left: 4px;
+}
+.info-product{
+	background: #f7f7f7;
+	padding: 15px 10px;
+}
+.item-product .option{
+	/*tẽt-align: center;*/
+	position: absolute;
+    left: 34px;
+    bottom: 103px;
+    display: none;
+}
+.item-product:hover .option{
+
+}
+.item-product .btn-pr{
+	background: #f94e3f;
+	border-radius:0px;
+	border: 0px;
+	border: 1px solid #ddd;
+}
+.item-product .btn-pr:hover{
+	background: white;
+	color: red;
+	border:1px solid #f94e3f;
+}
+.{
+	position: absolute;
+	position: relative;
+}
+.info-product a{
+	color: #252525;
+	font-size:15px;
+	padding: 10px 0;
+}
+.info-product a:hover{
+	text-decoration: none;
+	color: #f94e3f;
+}
+.info-product p{
+	padding-top: 10px;
+}
+.info-product .price{
+	color: #f94e3f;
+	font-size: 16px;
+	font-weight: bold;
+	padding-right:10px;
+}
+.info-product .sale{
+
+}

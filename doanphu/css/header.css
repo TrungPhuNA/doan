@@ -1,0 +1,143 @@
+
+#header{
+	/*padding: 20px 0;*/
+}
+#header #header-top{
+	padding:20px 0;
+}
+#header #header-top #form-search{
+	border:1px solid #ebebeb;
+}
+
+#header #header-top #form-search #select {
+    background: white;
+    padding: 10px;
+    font-size: 14px;
+    border: 0px;
+}
+
+#input-search{
+	border: 0px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    width: 66%;
+    font-size: 14px;
+}
+
+#btn-search{
+    background: #f94e3f;
+    padding: 11px 13px;
+    border: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    float: right;
+    margin-top: -2px;
+}
+
+
+#info-user{
+	float: left;
+	width: 60%;
+}
+#info-user .img-user{
+	background: #f6f6f6;
+	width: 50px;
+	height: 42px;
+	float: left;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+}
+
+#user-tk{
+	color: #333;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15px;
+}
+#user-tk:hover{
+	text-decoration: none;
+	color: #f94e3f;
+}
+#info-user  p a{
+	color: #333;
+}
+#info-user  p a:hover{
+	text-decoration:none;
+	color: #f94e3f;
+}
+
+
+#shpping-cart{
+	float: right;
+	position: relative;
+}
+#shpping-cart a{
+	font-size: 31px;
+	color: #888;
+}
+#shpping-cart a:hover{
+	text-decoration: none;
+}
+#shopping-cart:hover #show-shopping{
+	display: block;
+}
+#count-cart{
+	position: relative;
+    padding: 1px 5px;
+    border-radius: 25px;
+    color: white;
+    background: red;
+    top: -19px;
+    left: -25px;
+}
+
+#show-shopping{
+	width: 250px;
+	height: 200px;
+	border: 2px solid #888;
+	display: none;
+}
+
+
+/*header nav*/
+
+#header-nav nav ul{
+	list-style: none;
+}
+
+#header-nav nav ul li{
+	float: left;
+}
+#header-nav nav ul li a{
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+#header-nav nav ul li a:hover{
+	color: #f94e3f;
+	text-decoration: none;
+}
+#header-nav #nav-list{
+	padding: 10px;
+}
+#header-nav #nav-list a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size:16px;
+    
+}
+.i-list{
+	color: #f94e3f;
+}
+#header-nav #nav-list a:hover{
+	text-decoration: none;
+    color: #f94e3f;
+}
+
+
+
+/*end header nav*/
