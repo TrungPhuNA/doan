@@ -9,5 +9,21 @@ body{
 }
 
 .br{
-	border: 1px solid #dedede;
+	border: 1px solid #ebebeb;
 }
+
+/*scroll */
+a#on_top { opacity:0.6; display: none;}
+
+a#on_top i{ font-size: 20px;}
+a#on_top {
+	border-radius: 6px;
+	background-color: #007bb6;
+	padding: 12px 17px;
+	white-space: nowrap; color: #fff;
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	height: 44px;
+}
+/*scroll */
