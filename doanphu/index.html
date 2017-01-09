@@ -626,15 +626,17 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script>
 			$(function() {
-				var $product =  $('.item-product');
+				var $product =  $('.item1');
 				var $option  =  $('.option');
 
 				
-				$('.item-product').hover(function() {
+				$product.hover(function() {
+					var $this = $(this);
 					// alert("Ok");
-					$('.item-product  .option').fadeIn(500);
+					$this.find('.option').fadeIn(500);
 				},function() {
-					$('.item-product  .option').fadeOut(500);
+					var $this = $(this);
+					$this.find('.option').fadeOut(500);
 				});
 
 				//Nhấp nháy sản phẩm mới hoạc hót

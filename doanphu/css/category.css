@@ -44,8 +44,9 @@
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #F74D3E;
 }
+
 .item-select p{
-	font-style: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	color: #333;
 }
@@ -59,5 +60,56 @@
 .item-select ul li:hover{
 	color: #f94e3f;
 }
+
+.radio input[type='radio'] {
+	background: #F5F5F5;
+	color: #f6f6f6;
+}
 /*end col-3*/
 /*end breadcrumb*/
+
+
+
+/*col-9*/
+#show-cate #title-col-9{
+	color: #333;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#show-cate #hr{
+	border-top:1px solid #333;
+	width: 40px;
+}
+
+#tab-product{
+	background: #f6f6f6;
+}
+#tab-product .pull-left{
+
+}
+#tab-product .pull-left a{
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #fefefe;
+    font-weight: 400;
+    padding: 6px 10px;
+    background: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 56px;
+}
+#tab-product .pull-left a:hover{
+	text-decoration: none;
+	color: #f94e3f;
+
+}
+
+#tab-product .pull-left a i{
+	padding:10px 10px;
+}
+
+
+
+
+/*end col-9*/

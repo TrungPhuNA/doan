@@ -223,10 +223,11 @@
 							</ol>
 						</div>	
 						<!-- end breadcrumb -->
+						<!-- col-3 -->
 						<div class="col-md-3 br">
 							<form>
 								<div class="item-select">
-									<p>Khoảng giá</p>
+									<p class="item-title-col">Khoảng giá</p>
 									<ul class="scroll-item">
 										
 										<li>
@@ -279,37 +280,37 @@
 								</div>
 
 								<div class="item-select">
-									<p>khoảng giá</p>
+									<p>Hãng sản xuất</p>
 									<ul class="scroll-item">
 										
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Dưới 1tr</label>
+											  	<label><input type="radio" name="producer">Acer</label>
 											</div>
 										</li>
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Từ 1tr đến 2tr</label>
+											  	<label><input type="radio" name="producer">Apple</label>
 											</div>
 										</li>
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Từ 2tr đến 3tr</label>
+											  	<label><input type="radio" name="producer">Nike</label>
 											</div>
 										</li>
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Từ 3tr đến 5tr</label>
+											  	<label><input type="radio" name="producer">Samsung</label>
 											</div>
 										</li>
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Từ 5tr đến 7tr</label>
+											  	<label><input type="radio" name="producer">Sonny</label>
 											</div>
 										</li>
 										<li>
 											<div class="radio">
-											  	<label><input type="radio" name="price">Trên 10tr</label>
+											  	<label><input type="radio" name="producer">Tosipa</label>
 											</div>
 										</li>
 									</ul>
@@ -317,7 +318,33 @@
 								</div>
 							</form>
 						</div>
-						<div class="col-md-9 br">9</div>
+						<!-- end col-3 -->
+
+						<!-- col-9 -->
+						<div class="col-md-9 br">
+							<div class="">
+								<h2 id="title-col-9">thực phẩm</h2>
+								<p id="hr"></p>
+							</div>
+							<!-- tab-product -->
+							<div id="tab-product" class="br clearfix">
+								<div class="pull-left">
+									<a href="">
+										<i class="fa fa-th"></i><span>Lưới</span>
+										
+									</a>
+									<a href="">
+										<i class="fa fa-th-list"></i> <span>Danh sách</span>
+									</a>
+								</div>
+								
+							</div>
+							<!-- tab-product -->
+							<div class="br">
+								showpr
+							</div>
+						</div>
+						<!-- end col -9 -->
 					</div>
 				</div>
 			</section>
@@ -495,6 +522,10 @@
 			    });
 			});
 			// end scroll
+
+			// kiemt ra checkbox
+			// if ($('[name="test"]').is(':checked'))
+			// end kiem tra checkbox
 		</script>
 	</body>
 </html>
