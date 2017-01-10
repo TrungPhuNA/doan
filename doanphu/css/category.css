@@ -108,8 +108,23 @@
 #tab-product .pull-left a i{
 	padding:10px 10px;
 }
+/*gri*/
+.aclist{
+	color: #f94e3f;
+}
+.col-active{
+	display: block;
+}
+#luoi{
+	display: none;
+}
+#gri{
+	display: none;
+}
+/*gri*/
 
-
-
+#show-cate .item1{
+	margin-bottom: 20px;
+}
 
 /*end col-9*/

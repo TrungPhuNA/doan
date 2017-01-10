@@ -3,7 +3,7 @@
 	<head>
 		
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Sieu Thi Dien May</title>
+		<title>Giỏ Hàng</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		
@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="css/nav-sidebar.css">
 		<link rel="stylesheet" href="css/show-ht-title.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/category.css">
 		<link rel="stylesheet" href="css/style.css">
 		
 		
@@ -109,7 +110,7 @@
 			</section>
 			<!-- end header -->
 			<!-- nav-sidebar -->
-			<section id="nav-sidebar">
+			<section id="nav-sidebar" style="display: none;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3" style="border-left: 1px solid rgb(235, 235, 235) ;padding:0px;">
@@ -210,292 +211,108 @@
 			<!-- end nav-sidebar -->
 			
 			<!-- show-hl -->
-			<section class="show-hl">
+			<section id="cart" class="br">
 				<div class="container">
-					<div class="row" >
-						<!-- show-top -->
-						<div class="col-md-12 br show-top" style="padding: 0px;">
-							<div class="show-ht-title clearfix">
-								<div class="hl-title">
-									<a href="">
-										<i class="fa fa-tv"></i>
-										điện tử - âm thanh
-									</a>
+					<div class="row">
+						<!-- breadcrumb -->
+						<div class="col-md-12" style="padding: 10px 0 0 0;" id="breadcrumb">
+							<ol class="breadcrumb">
+							  	<li><a href="#">Home</a></li>
+							  	<li><a href="#">Library</a></li>
+							 	<li class="active">Data</li>
+							</ol>
+						</div>	
+						<!-- end breadcrumb -->
 
-								</div>
-								<i class="muiten"></i>
-								<div class="nav-hl">
-									<ul>
-										<li><a href="">Tivi</a></li>
-										<li><a href="">Smart Tivi</a></li>
-										<li><a href="">Tivi Samsung UHD</a></li>
-										<li><a href=""> Tivi LED</a></li>
-										<li><a href="">Dàn  âm thanh</a></li>
-									</ul>
-								</div>
-								
-							</div>
-						</div>
-						<!-- end show-top -->
+						<form>
+							<table class="table table-responsive">
+								<thead>
+									<tr>
+										<th>Hình Ảnh</th>
+										<th>Tên Sản Phẩm</th>
+										<th>Đơn Giá</th>
+										<th>Số Lượng</th>
+										<th>Thành Tiền</th>
+										<th>Xóa</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="images/product/congusb.jpg">
+										</td>
+										<td>
+											<h2>
+												<a href="" class="cart_name">Bộ Chia cổng USB</a>
+											</h2>
+										</td>
+										<td>
+											<span>260.000đ</span>
+										</td>
+										<td>
+											<input type="number" min="1" name="" value="2" id="qty_cart">
+										</td>
+										<td>
+											<span class="cart_price">190.000đ</span>
+										</td>
+										<td>
+											<a href=""><i class="fa fa-trash"></i></a>
+										</td>
+									</tr>
 
-
-						<div class="col-md-9" style="padding:0 30px 0 0;">
-							<div>
-								<img src="images/category/sec_col1_banner.jpg" width="100%" alt="">
-							</div>
-							<!-- show produt-item -->
-							<div class="item-product ">
-								
-										<div class="col-md-4" style="">
-											<div class="item1 br">
-												<i class="fa fa-warning new-pro"></i>
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <strike class="sale">13.000.000đ</strike></p>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="item1 br">
-
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <span class="sale">13.000.000đ</span></p>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="item1 br">
-
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <span class="sale">13.000.000đ</span></p>
-												</div>
-											</div>
-										</div>							
-							</div>
-							<!-- end show prodcut item -->
-						</div>
-
-						<!-- sidebar-right -->
-						<div class="col-md-3 br" style="padding: 0px;">
-							<div class="hot-right">
-								<h3>sản phẩm bán chạy</h3>
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- end sidebar-right -->
+									<tr>
+										<td>
+											<img src="images/product/congusb.jpg">
+										</td>
+										<td>
+											<h2>
+												<a href="" class="cart_name">Bộ Chia cổng USB</a>
+											</h2>
+										</td>
+										<td>
+											<span>260.000đ</span>
+										</td>
+										<td>
+											<input type="number" min="1" name="" value="2" id="qty_cart">
+										</td>
+										<td>
+											<span class="cart_price">190.000đ</span>
+										</td>
+										<td>
+											<a href=""><i class="fa fa-trash"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/product/congusb.jpg">
+										</td>
+										<td>
+											<h2>
+												<a href="" class="cart_name">Bộ Chia cổng USB</a>
+											</h2>
+										</td>
+										<td>
+											<span>260.000đ</span>
+										</td>
+										<td>
+											<input type="number" min="1" name="" value="2" id="qty_cart">
+										</td>
+										<td>
+											<span class="cart_price">190.000đ</span>
+										</td>
+										<td>
+											<a href=""><i class="fa fa-trash"></i></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+						
 					</div>
 				</div>
 			</section>
 			<!-- end show-hl -->
 
-			<!-- show-hl 2-->
-			<section class="show-hl">
-				<div class="container">
-					<div class="row" >
-						<!-- show-top -->
-						<div class="col-md-12 br show-top" style="padding: 0px;">
-							<div class="show-ht-title clearfix">
-								<div class="hl-title" style="background: #00BFA5">
-									<a href="">
-										<i class="fa fa-s15"></i>
-										Điện lạnh
-									</a>
-
-								</div>
-								<i class="muiten" id="dienlanh"></i>
-								<div class="nav-hl">
-									<ul>
-										<li><a href="">Tivi</a></li>
-										<li><a href="">Smart Tivi</a></li>
-										<li><a href="">Tivi Samsung UHD</a></li>
-										<li><a href=""> Tivi LED</a></li>
-										<li><a href="">Dàn  âm thanh</a></li>
-									</ul>
-								</div>
-								
-							</div>
-						</div>
-						<!-- end show-top -->
-
-
-						<div class="col-md-9" style="padding:0 30px 0 0;">
-							<div>
-								<img src="images/category/sec_col1_banner.jpg" width="100%" alt="">
-							</div>
-							<!-- show produt-item -->
-							<div class="item-product ">
-								
-										<div class="col-md-4" style="">
-											<div class="item1 br">
-												<i class="fa fa-warning new-pro"></i>
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <strike class="sale">13.000.000đ</strike></p>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="item1 br">
-
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <span class="sale">13.000.000đ</span></p>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="item1 br">
-
-												<img src="images/product/dientu/sp1.jpg" alt="">
-												<div class="option">
-													<button type="button" class="btn btn-danger btn-pr">Mua hàng</button>
-													<button type="button" class="btn btn-danger btn-pr">Xem hàng</button>
-													
-												</div>
-												<div class="info-product">
-													<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-													<p><span class="price">12.000.000đ</span> <span class="sale">13.000.000đ</span></p>
-												</div>
-											</div>
-										</div>							
-							</div>
-							<!-- end show prodcut item -->
-						</div>
-
-						<!-- sidebar-right -->
-						<div class="col-md-3 br" style="padding: 0px;">
-							<div class="hot-right">
-								<h3>sản phẩm bán chạy</h3>
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-
-								<div class="hot-item clearfix">
-									<a href="" class="pull-left">
-										<img src="images/product/dientu/sp1.jpg" width="100%">
-									</a>
-									<div class="hot-item-info pull-right">
-										<a href="" class="name-product">Tivi Samsung 28J4100 (28 inch)</a>
-										<p><span class="price">12.000.000đ</span></p>
-										 <p><strike class="sale">13.000.000đ</strike></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- end sidebar-right -->
-					</div>
-				</div>
-			</section>
-			<!-- end show-hl 2 -->
-
-			<!-- show-hl  -->
-			<section class="show-hl br">
-				
-			</section>
-			<!-- end show-hl -->
 
 			<!-- footer -->
 			<section id="footer">
@@ -668,6 +485,27 @@
 			    });
 			});
 			// end scroll
+
+			// kiemt ra checkbox
+			// if ($('[name="test"]').is(':checked'))
+			// end kiem tra checkbox
+
+			// xu ly  luoi gri
+			$(function() {
+				var $tab = $('#tab-product');
+				$tab.find('a').click(function() {
+					if ( $(this).attr('id') == "lu") {
+						$('#gri').css('display' ,'none');
+						$('#luoi').css('display' ,'block');
+					} else if ($(this).attr('id') == "ds") {
+						$('#luoi').css('display' ,'none');
+						$('#gri').css('display' ,'block');
+					}
+				})
+				$('#luoi').css('display' ,'block');
+					
+			})
+			// end
 		</script>
 	</body>
 </html>
