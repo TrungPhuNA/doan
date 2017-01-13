@@ -1,0 +1,40 @@
+#cart table thead tr {
+	background: #ebebeb;
+	border-bottom: 0px;
+	color: #1c1c1c;
+}
+
+#cart table h2 a{
+	font-size: 16px;
+	color: #252525;
+	font-weight: 400;
+	line-height: 118px;
+}
+#cart table h2 a:hover{
+	text-decoration: none;
+	color: #f94e3f;
+
+}
+
+#cart table .cart_price{
+	font-size: 16px;
+	color: #f94e3f;
+	font-weight: bold;
+	line-height: 157px;
+}
+
+#cart table .del{
+	font-size: 18px;
+	color: #bdbdbd;
+	font-weight: bold;
+	line-height: 157px;
+}
+#cart table tr,#cart table td {
+	text-align: center;
+}
+
+#cart table input{
+	max-width: 60px;
+	padding-left: 10px;
+	margin-top: 66px;
+}
